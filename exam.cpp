@@ -2,7 +2,8 @@
 using namespace std;
 int main()
 {
-    int marks, grade = 'A';
+    int marks;
+    char grade = 'A';
     cout << " enter your marks :- ";
     cin >> marks;
 
