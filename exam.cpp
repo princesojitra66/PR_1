@@ -37,12 +37,17 @@ int main()
         break;
     }
 
-    if (marks <= 100 && marks >= 50)
-    {
-        cout << "Congratulations! you are eligible for the next level.";
-    }
-    else
-    {
-        cout << "Please try again next time. " << endl;
+
+    if(marks>100 && marks<0){
+        if (marks <= 100 && marks >= 50)
+        {
+            cout << "Congratulations! you are eligible for the next level.";
+        }
+        else
+        {
+            cout << "Please try again next time. " << endl;
+        }
+    }else{
+        cout<<"invalid marks ";
     }
 }
