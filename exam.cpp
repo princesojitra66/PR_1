@@ -34,19 +34,7 @@ int main()
         break;
     }
 
-    if (marks <= 100 && marks >= 85)
-    {
-        cout << "Congratulations! you are eligible for the next level.";
-    }
-    else if (marks < 85 && marks >= 75)
-    {
-        cout << "Congratulations! you are eligible for the next level.";
-    }
-    else if (marks < 75 && marks >= 65)
-    {
-        cout << "Congratulations! you are eligible for the next level.";
-    }
-    else if (marks < 65 && marks >= 50)
+    if (marks <= 100 && marks >= 50)
     {
         cout << "Congratulations! you are eligible for the next level.";
     }
