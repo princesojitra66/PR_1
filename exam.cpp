@@ -4,9 +4,9 @@ int main()
 {
     int marks;
     char grade = 'A';
-    char grade = 'B';
-    char grade = 'C';
-    char grade = 'D';
+    char grade1 = 'B';
+    char grade2 = 'C';
+    char grade3 = 'D';
     
     cout << " enter your marks :- ";
     cin >> marks;
@@ -19,7 +19,7 @@ int main()
     :
     cout << "invalid marks ";
 
-    switch (grade)
+    switch (grade1,grade2,grade3,grade)
     {
     case 'A':
         cout<<"Excellent work!  ";
