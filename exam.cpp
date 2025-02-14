@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int marks;
-    char     grade = 'A';
+    char grade = 'A';
     cout << " enter your marks :- ";
     cin >> marks;
     (marks>0 && marks<100)?  
