@@ -4,6 +4,10 @@ int main()
 {
     int marks;
     char grade = 'A';
+    char grade = 'B';
+    char grade = 'C';
+    char grade = 'D';
+    
     cout << " enter your marks :- ";
     cin >> marks;
     (marks>0 && marks<100)?  
@@ -18,20 +22,17 @@ int main()
     switch (grade)
     {
     case 'A':
-    if(marks<=100 && marks>=85){
         cout<<"Excellent work!  ";
-      }else if(marks<85 && marks>=75){
-          cout<<"Well done. ";
-      }else if(marks<75 && marks>=65){
-          cout<<"Good job.  ";
-      }else if(marks<65 && marks>=50){
-          cout<<"You passed,but you could do better.  ";
-      }else {
-          cout<<"Sorry you failed .";
-      }
-
         break;
-   
+        case 'B':
+          cout<<"Well done. ";
+        break;
+         case 'C':
+          cout<<"Good job.  ";
+        break;
+         case 'D':
+          cout<<"You passed,but you could do better.  ";
+        break;
     default:
         cout << "Sorry you failed  ";
         break;
