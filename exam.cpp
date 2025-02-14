@@ -6,7 +6,7 @@ int main()
     char     grade = 'A';
     cout << " enter your marks :- ";
     cin >> marks;
-    (marks<0 && marks>100)?  
+    (marks>0 && marks<100)?  
     (marks <= 100 && marks >= 85) ? cout << "your grade is A ."
     : (marks < 85 && marks >= 75) ? cout << "Your grade is B ."
     : (marks < 75 && marks >= 65) ? cout << "Your grade is C ."
@@ -38,7 +38,7 @@ int main()
     }
 
 
-    if(marks>100 && marks<0){
+    if(marks<100 && marks>0){
         if (marks <= 100 && marks >= 50)
         {
             cout << "Congratulations! you are eligible for the next level.";
